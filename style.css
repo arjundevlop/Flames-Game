@@ -1,0 +1,132 @@
+body{
+    font-family: 'Mulish', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.heading-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 80px;
+}
+.heading-span{
+    font-size: 30px;
+    color: rgb(185, 139, 139);
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-transform:uppercase;
+}
+.info-div{
+    margin: 50px auto 0 auto;
+    text-align: center;
+    color: rgb(185, 139, 139);
+}
+.info-text{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 500;
+}
+.form-box{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60vh;
+    width: 70vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    gap: 50px;
+}
+.input-div{
+    width: 100%;
+    font-size: 24px;
+    color: rgb(185, 139, 139);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+#second-input{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+.label-span{
+    font-size: 28px;
+}
+input[type="text"]{
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+}
+.btn-div{
+    display: flex;
+    gap: 30px;
+}
+.btn-div button{
+    width: 250px;
+    height: 60px;
+    color: black;
+    background-color: rgb(185, 139, 139);
+    font-size: 24px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: green;
+}
+#clr:hover{
+    background-color: rgb(187, 89, 89);
+}
+#result-span{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+@media screen and (max-width:600px){
+    .heading-div{
+        width: 100%;
+    }
+    .heading-span{
+        font-size: 24px;
+    }
+    .info-text{
+        font-size: 18px;
+    }
+    .form-box{
+        flex-direction: column;
+        gap: 25px;
+        
+    }
+    .input-div{
+        flex-direction: column;
+        font-size: 12px;
+        width: 70%;
+        gap: 15px;
+    }
+    input[type="text"]{
+        font-size: 20px;
+    }
+    .btn-div{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .btn-div button{
+        font-size: 18px;
+        height: 40px;
+        width: 100%;
+    }
+    #second-input{
+        gap: 15px;
+    }
+    .label-span{
+        font-size: 20px;
+    }
+}
